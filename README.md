@@ -41,10 +41,15 @@
     resultat obtenu : l'employer est créé
 
 
-  ### créer une équipe :  
-    desciption : créer une équipe en renseignant tous les champs correctement
+  ### créer une équipe correctement :  
+    desciption : créer une équipe en renseignant le champ correctement
     resultat attendu : l'équipe doit se créer
     resultat obtenu : l'équipe est créée
+
+  ### créer une équipe avec champ vide ou espaces :
+    description : créer une équipe en ne renseignant pas le champ ou bien avec seulement des espaces
+    resultat attendu : l'équipe ne se créé pas
+    résultat obtenu : ne permet de pas créer une équipe avec un champ vide, renvoie une erreur lors de la création d'équipe avec uniquement des espaces renvoie une erreur 500 
 
   ### page modifier un employer :
     description : se rendre sur la page de modification d'un employer
