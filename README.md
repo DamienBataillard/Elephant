@@ -40,25 +40,28 @@
     resultat obtenu : 
 
 
-  ### Tester les champs du forms Teams :
-    tester les différents champs du form team pour identifier lesquels laissent passer des valeurs inccorectes (correct ou incorrect)
-
-
   ### créer une équipe :  
     desciption : créer une équipe en renseignant tous les champs correctement
     resultat attendu : l'équipe doit se créer
     resultat obtenu : 
 
-  ### créer une équipe incomplet :  
-    desciption : créer une équipe sans renseigner tous les champs
-    resultat attendu : l'équipe ne doit pas se créer
-    resultat obtenu : 
+  ### modifier un employer :
+    description : se rendre sur la page de modification d'un employer
+    resultat attendu : il est possible de se rendre sur la page correctement
+    resultat obtenu :
 
-  ### créer une équipe incorrect : 
-    desciption : créer une équipe en renseignant mal des champs
-    resultat attendu : l'équipe ne doit pas se créer
-    resultat obtenu : 
+  ### Update basic info : 
+    description : modification des champs name et email d'un employer
+    resultat attendu : les champs name et email sont bien mis à jour
+    resultat obtenu :
 
+  ### Update adress :
+    description : modification des champs de l'adresse d'un employer
+    resultat attendu : les champs de l'adresse, ville et code postal sont bien mis à jour
+    resultat obtenu :
 
-
+  ### Update contract :
+    description : modification des champs du contrat
+    resultat attendu : les champs de "Hiring date" et Job title
+    resultat obtenu :
 
