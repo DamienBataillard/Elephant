@@ -65,3 +65,17 @@
     resultat attendu : les champs de "Hiring date" et Job title
     resultat obtenu :
 
+  ### Promote as manager :
+    description : modification d'un employer pour le promouvoir mamanger
+    resultat attendu : l'employer est bien promu manager
+    resultat obtenu :
+
+  ### Add to team :
+    description : ajout de l'employer à une équipe 
+    resultat attendu : l'employer est bien ajouté à une équipe 
+    resultat obtenu :
+
+  ### Delete employee :
+    description : supression d'un employer de la BDD
+    resultat attendu : l'employer est bien supprimé de la BDD
+    resultat obtenu :
