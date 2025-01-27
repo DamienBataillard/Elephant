@@ -10,9 +10,13 @@
     - Prénom
     - 
   - créer un employer : créer un employer en renseignant tous les champs correctement : succès
-  - créer un employer incomplet : créer un employer sans renseigner tous les champs :
-  - créer un employer incorrect : créer un employer en renseignant mal des champs :
+  - créer un employer incomplet : créer un employer sans renseigner tous les champs : 
+  - créer un employer incorrect : créer un employer en renseignant mal des champs : 
 
   - Tester les champs du forms Teams :
-  - créer une équipe : créer une équipe en renseignant tous les champs correctement :
-  - créer une équipe : 
+  - créer une équipe : créer une équipe en renseignant tous les champs correctement : 
+  - créer une équipe incomplet : créer une équipe sans renseigner tous les champs : 
+  - créer une équipe incorrect : créer une équipe en renseignant mal des champs :
+
+
+  
