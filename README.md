@@ -79,3 +79,20 @@
     description : supression d'un employer de la BDD
     resultat attendu : l'employer est bien supprimé de la BDD
     resultat obtenu :
+
+  ### View team members :
+    description : accéder à la page view members depuis la page teams
+    resultat attendu : les memebres de l'équipe et leurs roles sont bien affichés
+    resultat obtenu :
+
+  ### Delete team :
+    description : supression d'une équipe de la BDD 
+    resultat attendu : léquipe est bien supprimée de la BDD
+    resultat obtenu :
+
+  ### Delete DB
+    description : supression totale de la BDD depuis la page rest_db
+    resultat attendu : la base de donnée est bien vidée
+    resultat obtenu :
+
+    
