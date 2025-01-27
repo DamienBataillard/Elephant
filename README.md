@@ -22,11 +22,11 @@
   ### Tester les champs du forms employer :
     desciption : tester les différents champs du form employer pour identifier lesquels laissent passer des valeurs inccorectes (correct ou incorrect)
 
-      - Name : Ne fonctionne pas si non rempli, pas de message veuillez saisir un nom si nom manquant, laisse des chiffres être rentrer
+      - Name : Ne fonctionne pas si non rempli, pas de message veuillez saisir un nom si nom manquant, laisse des chiffres et charactère spéciaux être rentrés
       - Email : Ne fonctionne pas si non rempli, pas de message veuillez saisir un email si email manquant, vérifie si la structure est bonne (même si non indiqué si non)
-      - Adress : Ne fonctionne pas si non rempli, champs d’adresse dupliqué mais fonctionne si 
+      - Adress : Ne fonctionne pas si non rempli, champs d’adresse dupliqué mais fonctionne si un seul des deux est rempli
       - City : Demande à remplir si vide
-      - Zip code : Demande à remplir si vide, une lettre ne peut pas être rentrée sauf un seul e (mais renvoie une erreur à la création), permet de mettre plus de 5 chiffres
+      - Zip code : Demande à remplir si vide, une lettre ne peut pas être rentrée sauf un seul e (mais renvoie une erreur à la création), permet de mettre plus de 5 chiffres ou des entiers négatifs
       - Hiring date : Demande à remplir si vide, jour et mois corrects mais l'année peut avoir plus de 4 chiffres
       - Job title : Demande à remplir si vide
 
