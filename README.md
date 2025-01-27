@@ -12,6 +12,11 @@
     resultat attendu : chacune des pages est accéssible depuis home
     resultat obtenu : chacune des pages est accéssible depuis home
 
+  ### revenir à la page parente :
+    description : revenir à la page précédente après avoir cliquer sur une autre page 
+    resultat attendu : il est possible de revenir à la page précédente
+    resultat obtenu : aucun bouton pour revenir à la page parente n'existe. Il est possible de revenir à la page parente avec la flèche "Précédent" du navigateur, ou bien avec une sourie / macro effectuant la même fonction.
+
 ## test plan - Fonctions
 
   ### Tester les champs du forms employer :
