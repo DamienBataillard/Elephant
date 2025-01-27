@@ -4,12 +4,12 @@
 ## test plan - Navigation 
   ### retour home : 
     desciption : retourner à la page principale depuis chacune des pages
-    resultat attendu : 
+    resultat attendu : la page home est bien accessible depuis chacune des pages
     resultat obtenu : 
 
   ### accès aux pages : 
     desciption : accéder à chacune des pages depuis le menu
-    resultat attendu : 
+    resultat attendu : chacune des pages est accéssible depuis home
     resultat obtenu : 
 
 ## test plan - Fonctions
