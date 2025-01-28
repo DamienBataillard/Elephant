@@ -85,8 +85,8 @@ def test_rm_team(reset_db,page):
     proceed_button.click()
 
     # Goto the team list
-    page.goto("/teams")
+    page.goto("/employees")
 
-    # Check the new team is correctly deleted
-    assert not page.is_visible(f"td:has-text('{team_name}')")
+    # Check if member is still there after deleting the team
+    assert page.is_visible(f"td:has-text('{employee_name}')"), f"Error: Employee with name '{employee_name}' is not visible on the page it has been delete when team was deleted"
 
