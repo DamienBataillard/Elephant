@@ -16,9 +16,9 @@ def test_rm_team(reset_db,page):
     name_input.fill(team_name)
     page.click("text='Add'")
 
-    add_page = AddEmployeePage(page)
-    add_page.navigate()
-    add_page.fill()
+    addEmployee_page = AddEmployeePage(page)
+    addEmployee_page.navigate()
+    addEmployee_page.fill()
 
     add_button = page.locator("button:has-text('Add')")
     add_button.click()
