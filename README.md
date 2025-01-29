@@ -1,5 +1,7 @@
 # Elephant
 
+## lien Logs : [Logs.pdf](https://github.com/user-attachments/files/18590224/Logs.pdf)
+
 
 ## test plan - Navigation 
   ### retour home : 
