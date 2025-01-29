@@ -1,5 +1,6 @@
 import pytest
 from models.employee import AddEmployeePage
+from models.team import CreateTeamPage
 
 @pytest.fixture(scope="function")
 def reset_db(page):
@@ -8,20 +9,13 @@ def reset_db(page):
     proceed_button.click()
 
 def test_rm_team(reset_db,page):
-    # Create a team 
-    page.goto("/")
-    page.goto("/add_team")
-    name_input = page.locator('input[name="name"]')
-    team_name = "my team"
-    name_input.fill(team_name)
-    page.click("text='Add'")
+    createTeam_page = CreateTeamPage(page)
+    createTeam_page.navigate()
+    createTeam_page.fill()
 
     addEmployee_page = AddEmployeePage(page)
     addEmployee_page.navigate()
     addEmployee_page.fill()
-
-    add_button = page.locator("button:has-text('Add')")
-    add_button.click()
 
     employee_row = page.locator('table.table tbody tr', has_text="test employee")
     edit_button = employee_row.locator('a:has-text("Edit")')
@@ -33,7 +27,6 @@ def test_rm_team(reset_db,page):
     team_dropdown = page.locator('select[name="team"]')
     # Select the team by its visible text or value
     team_dropdown.select_option(label=team_name+ " team")    
-    add_button.click()
 
     # Goto the team list
     page.goto("/teams")
